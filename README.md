@@ -111,11 +111,11 @@ logger - Get log file
 
 
 ## Support
-Contact Me On [Telegram](https://t.me/Pro_editor_tg)
+Contact Me On [Telegram](https://t.me/psycho_009)
 
 [Update Channel](https://t.me/Team_annaben)
 
 ## License
 Code released under [The GNU General Public License](LICENSE).
 ## credit 🤠
-https://t.me/PANDITHAN_SIR
+https://t.me/psycho_009
