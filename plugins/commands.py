@@ -39,7 +39,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url='http://t.me/dqautofl_bot?startgroup=true')
             ],[
-            InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_i=''),
             InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/EDIT_REPO')
             ],[
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
@@ -83,13 +83,13 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url='http://t.me/dqautofl_bot?startgroup=true')
+            InlineKeyboardButton('➕ 𝙰𝙳𝙳 𝙼𝙴 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕', url='http://t.me/dqautofl_bot?startgroup=true')
             ],[
-            InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/EDIT_REPO')
+            InlineKeyboardButton('🔍 𝚂𝙴𝙰𝚁𝙲𝙷 𝙷𝙴𝚁𝙴 🔎', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('💠𝚂𝚄𝙿𝙿𝙾𝚁𝚃💠', url='https://t.me/movies_channel001')
             ],[
-            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('♻️𝙷𝙴𝙻𝙿♻️', callback_data='help'),
+            InlineKeyboardButton('♻️𝙰𝙱𝙾𝚄𝚃♻️', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
