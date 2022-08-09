@@ -421,7 +421,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     caption=f_caption
                     )
                 btn = [[
-                    InlineKeyboardButton("💥JOIN CHANNEL💥", url='https://t.me/+OwPc0ngwyCY4M2I1')
+                    InlineKeyboardButton("💥JOIN CHANNEL💥", url='https://t.me/movies_channel001')
                 ]]
                 reply_markup = InlineKeyboardMarkup(btn)
                 bb = await query.message.reply_text(
@@ -486,32 +486,32 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('😎 𝐚𝐝𝐦𝐢𝐧 ', callback_data='admin')
+            InlineKeyboardButton('😎 𝙰𝙳𝙼𝙸𝙽 ', callback_data='admin')
             ],[
-            InlineKeyboardButton('🗳️ 𝐜𝐨𝐧𝐧𝐞𝐜𝐭 ', callback_data='coct'),
-            InlineKeyboardButton('👻 𝐟𝐢𝐥𝐭𝐞𝐫𝐬 ', callback_data='auto_manual'),
-            InlineKeyboardButton('📖 𝐠𝐭𝐫𝐚𝐧𝐬 ', callback_data='gtrans')
+            InlineKeyboardButton('🗳️ 𝙲𝙾𝙽𝙽𝙴𝙲𝚃 ', callback_data='coct'),
+            InlineKeyboardButton('👻 𝙵𝙸𝙻𝚃𝙴𝚁𝚂 ', callback_data='auto_manual'),
+            InlineKeyboardButton('📖 𝙶𝚝𝚛𝚊𝚗𝚜 ', callback_data='gtrans')
             ],[
-            InlineKeyboardButton('📄 𝐢𝐧𝐟𝐨 ', callback_data='info'),
-            InlineKeyboardButton('🖥️ 𝐩𝐚𝐬𝐭𝐞 ', callback_data='paste')
+            InlineKeyboardButton('📄 𝙸𝙽𝙵𝙾 ', callback_data='info'),
+            InlineKeyboardButton('🖥️ 𝙿𝙰𝚂𝚃𝙴 ', callback_data='paste')
             ],[
-            InlineKeyboardButton('💣 𝐩𝐮𝐫𝐠𝐞 ', callback_data='purge')
+            InlineKeyboardButton('💣 𝙿𝚄𝚁𝙶𝙴 ', callback_data='purge')
             ],[
-            InlineKeyboardButton('🔇 𝐫𝐞𝐬𝐭𝐫𝐢𝐜𝐭 ', callback_data='restric'),
-            InlineKeyboardButton('🔍 𝐬𝐞𝐚𝐫𝐜𝐡 ', callback_data='search'),
-            InlineKeyboardButton('📸 𝐭𝐠𝐫𝐚𝐩𝐡 ', callback_data='tgraph')
+            InlineKeyboardButton('🔇 𝚁𝙴𝚂𝚃𝚁𝙸𝙲𝚃 ', callback_data='restric'),
+            InlineKeyboardButton('🔍 𝚂𝙴𝙰𝚁𝙲𝙷 ', callback_data='search'),
+            InlineKeyboardButton('📸 𝚝𝙶𝚁𝙰𝙿𝙷 ', callback_data='tgraph')
             ],[
-            InlineKeyboardButton('🤔 𝐰𝐡𝐨𝐢𝐬 ', callback_data='whois'),
-            InlineKeyboardButton('🤡 𝐟𝐮𝐧 ', callback_data='fun')
+            InlineKeyboardButton('🤔 𝚆𝙷𝙾𝚒𝚜 ', callback_data='whois'),
+            InlineKeyboardButton('🤡 𝙵𝚄𝙽 ', callback_data='fun')
             ],[
-            InlineKeyboardButton('🥱 𝐚𝐥𝐢𝐯𝐞 ', callback_data='alive')
+            InlineKeyboardButton('🥱 𝙰𝙻𝙸𝚅𝙴 ', callback_data='alive')
             ],[
-            InlineKeyboardButton('🎶 𝐬𝐨𝐧𝐠 ', callback_data='song'),
-            InlineKeyboardButton('🖨️ 𝐣𝐬𝐨𝐧 ', callback_data='json'),
-            InlineKeyboardButton('📎 𝐩𝐢𝐧 ', callback_data='pin')
+            InlineKeyboardButton('🎶 𝚂𝙾𝙽𝙶 ', callback_data='song'),
+            InlineKeyboardButton('🖨️ 𝙹𝚂𝙾𝙽 ', callback_data='json'),
+            InlineKeyboardButton('📎 𝙿𝙸𝙽 ', callback_data='pin')
             ],[
-            InlineKeyboardButton('🦠 𝐜𝐨𝐫𝐨𝐧𝐚 ', callback_data='corona'),
-            InlineKeyboardButton('🖨️ 𝐬𝐭𝐢𝐜𝐤𝐞𝐫𝐢𝐝 ', callback_data='stickerid')
+            InlineKeyboardButton('🦠 𝙲𝙾𝚁𝙾𝙽𝙰 ', callback_data='corona'),
+            InlineKeyboardButton('🖨️ 𝚂𝚃𝙸𝙲𝙺𝙴𝚁𝚒𝚍 ', callback_data='stickerid')
             ],[
             InlineKeyboardButton('« Back', callback_data='start')
         ]]
