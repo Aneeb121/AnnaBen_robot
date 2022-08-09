@@ -113,7 +113,7 @@ logger - Get log file
 ## Support
 Contact Me On [Telegram](https://t.me/psycho_009)
 
-[Update Channel](https://t.me/Team_annaben)
+[Update Channel](https://t.me/movies_channel001)
 
 ## License
 Code released under [The GNU General Public License](LICENSE).
